@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1 {
+    height: 50px;
+    width: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+}
+
+.child-1 {
+    height: auto;
+    width: auto;
+    color:white;
+    font-weight: bolder;
+    /* border: 1px solid red;
+    background-color: bisque; */
+    font-size: 24px;
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 10px;
+
+}
+
+.child-2 a{
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 15px;
+    width: 500px;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    gap: 4px;
+
+}
+
+/* header end */
+.container-2 {
+    background-color: #1f2937;
+    height: 320px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    
+}    
+.child-3{
+    height: auto;
+    width: 300vw;
+    display: block;
+    padding-left:30px;
+    margin-right: 200px;
+    /* font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8; */
+}
+.child-3 .para-1 {
+    width: 500px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.child-3 .para-2 {
+    width: 420px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.child-3 .button-1 {
+    background-color: #3882f6;
+    font-size: larger;
+    height: 30px;
+    width: 100px;
+    border-radius: 13%;
+    margin-top: 20px;
+}
+.child-4 {
+    
+    height: 180px;
+    width: 100px;
+    border: 1px solid red;
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+.container-3 {
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.child-5 {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container-4 {
+    background-color: whitesmoke;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.child-6 {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.child-7 {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.child-8 {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.child-9 {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.container-5 {
+    background-color: whitesmoke;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.child-10 {
+    height: 150px;
+    width: 150px;
+    margin: 30px 20px;
+}
+.child-11 {
+    height: 150px;
+    width: 150px;
+    margin: 30px 20px;
+}
+.child-12 {
+    height: 150px;
+    width: 150px;
+    margin: 30px 20px;
+}
+.child-13 {
+    height: 150px;
+    width: 150px;
+    margin: 30px 20px;
+}
+.container-6 {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: block;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.child-14 {
+    width: 800px;
+    /* margin-left: 150px; */
+    font-size: 36px;
+    font-style: italic;
+}
+.container-7 {
+    background-color: blue;
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 170px 70px 170px;
+    border-radius: 10px;
+}
+.child-15 {
+    color: white;
+    border-radius: 3px;
+    text-align: left;
+    margin-left: 0%;
+}
+.child-16 button {
+    font-size: 20px;
+}
+.container-8 {
+    background-color: darkblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-17 {
+    color: white;
+}
+
+
